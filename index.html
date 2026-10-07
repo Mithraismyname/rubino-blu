@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Fonts are here -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Rubino Blu | Premium Blueberries</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-container">
+        <a href="#" class="logo">Rubino Blu</a>
+
+        <button class="menu-toggle" aria-label="Open menu">☰</button>
+        <nav class="main-nav">
+          <ul>
+            <li><a href="#home" id="nav-home">Home</a></li>
+            <li><a href="#about" id="nav-about">About</a></li>
+            <li><a href="#products" id="nav-products">Products</a></li>
+            <li><a href="#gallery" id="nav-gallery">Gallery</a></li>
+            <li><a href="#contact" id="nav-contact">Contact</a></li>
+          </ul>
+
+          <div class="language-menu">
+            <button class="language-toggle" type="button">
+              <span class="language-icon">◎</span>
+              <span id="language-label">Language</span>
+            </button>
+
+            <div class="language-options">
+              <a href="#" class="language-btn active" data-lang="en">English</a>
+              <a href="#" class="language-btn" data-lang="fa">فارسی</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero" id="home">
+        <div class="slide">
+          <div class="container">
+            <div class="hero-content">
+              <h1 id="hero-title">Rubino Blu</h1>
+
+              <p id="hero-text">
+                Rooted in the fertile lands of Northern Iran, we grow berries
+                with care and passion.
+              </p>
+
+              <div class="hero-buttons">
+                <a href="#about" class="primary-btn" id="hero-about">
+                  Explore Our Farm
+                </a>
+
+                <a href="#contact" class="secondary-btn" id="hero-contact">
+                  Contact Us
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="farm-story" id="about">
+        <div class="container">
+          <div class="farm-text">
+            <h2 id="farm-title">Our Farm</h2>
+
+            <p id="farm-text">
+              Behind every Rubino Blu berry is a story of care, dedication, and
+              respect for nature. Our farmers carefully nurture each plant to
+              bring exceptional quality from Northern Iran to the world.
+            </p>
+          </div>
+
+          <div class="farm-image">
+            <img src="images/blueberry-farm.jpeg" alt="Rubino Blu farm" />
+          </div>
+        </div>
+      </section>
+
+      <section class="products" id="products">
+        <div class="container">
+          <div class="section-title">
+            <h2 id="products-title">Our Products</h2>
+            <p id="products-intro">
+              Carefully grown products from our Northern Iran farm.
+            </p>
+          </div>
+
+          <div class="featured-product">
+            <div class="product-image">
+              <img
+                src="images/blueberry-product.jpeg"
+                alt="Fresh blueberries growing on the plant"
+              />
+            </div>
+
+            <div class="product-text">
+              <h3 id="blueberries-title">Blueberries</h3>
+
+              <p id="blueberries-text">
+                Our signature berry, grown with care and selected for
+                exceptional quality.
+              </p>
+            </div>
+          </div>
+
+          <div class="other-products">
+            <div class="product-item">
+              <img src="images/kiwi.jpeg" alt="Fresh kiwi" />
+              <h3 id="kiwi-title">Kiwi</h3>
+            </div>
+
+            <div class="product-item">
+              <img src="images/oranges.jpeg" alt="Fresh oranges" />
+              <h3 id="oranges-title">Oranges</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery" id="gallery">
+        <div class="container">
+          <div class="section-title">
+            <h2 id="gallery-title">Gallery</h2>
+
+            <p id="gallery-intro">A glimpse into life at Rubino Blu.</p>
+          </div>
+
+          <div class="gallery-grid">
+            <div class="gallery-item gallery-large">
+              <img
+                src="images/harvesting.jpeg"
+                alt="Harvesting blueberries at Rubino Blu"
+              />
+            </div>
+
+            <div class="gallery-item gallery-large">
+              <img
+                src="images/harvest-crates.jpeg"
+                alt="Freshly harvested fruit at Rubino Blu"
+              />
+            </div>
+
+            <div class="gallery-item">
+              <img
+                src="images/blueberry-plants.jpeg"
+                alt="Blueberry plants at Rubino Blu"
+              />
+            </div>
+
+            <div class="gallery-item">
+              <img
+                src="images/plate-of-blueberry.jpeg"
+                alt="Blueberries at Rubino Blu"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="container">
+          <div class="contact-content">
+            <h2 id="contact-title">From Our Farm to the World</h2>
+
+            <p id="contact-text">
+              For wholesale inquiries, partnerships, or more information about
+              Rubino Blu, we'd love to hear from you.
+            </p>
+
+            <a
+              href="mailto:info@rubinoblu.com"
+              class="contact-btn"
+              id="contact-button"
+            >
+              Get in Touch
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <div class="logo">Rubino Blu</div>
+            <p id="footer-tagline">Premium produce from Northern Iran.</p>
+          </div>
+
+          <div class="footer-links">
+            <a href="#home" id="footer-home">Home</a>
+            <a href="#about" id="footer-about">About</a>
+            <a href="#products" id="footer-products">Products</a>
+            <a href="#gallery" id="footer-gallery">Gallery</a>
+            <a href="#contact" id="footer-contact">Contact</a>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p id="footer-copyright">© 2026 Rubino Blu. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
